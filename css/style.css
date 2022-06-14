@@ -1,0 +1,48 @@
+body {
+    background-image: url('../image/bobesponja.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.table-responsive {
+    margin-top: 300px;
+    background-color: aqua;
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 40px;
+}
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 300;
+   
+}
+.lanche {
+    color: yellow;
+}
+.price {
+    color: red;
+    font-size: 25px;
+}
+
+@media( max-width: 480px) 
+{
+   
+    .table-responsive {
+      margin-left: 0; 
+      margin-right: 0;
+        margin-top: 115px;
+        width: 100%;
+        opacity:10;
+        position:absolute;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: sans-serif;
+        
+
+        
+    }
+    
+}

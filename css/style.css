@@ -1,33 +1,33 @@
-body {
-    background-image: url('../image/bobesponja.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    background-position-y: 0px;
-    
-    
+.image {
+    border-radius: 8px;
+    border: solid 2px black;
+    width: 95%;
+    margin-left: 43px;
+    height: 500px;
+  
 }
 .table-responsive {
-    margin-top: 300px;
-    background-color: aqua;
-    opacity: 0.7;
+    /* margin-top: 300px; */
+    background-image: url(../image/azuldomar.png);
+    /* opacity: 0.7; */
     border-radius: 10px;
     width: 95%;
     margin-left: 40px;
+border:solid 2px black;
 }
+
 h1 {
     text-align: center;
     padding-top: 10px;
-    font-weight: 300;
+    /* font-weight: 300; */
    
 }
-.lanche {
-    color: yellow;
-}
+
 .price {
     color: red;
     font-size: 25px;
 }
+
 
 @media( max-width: 480px) 
 {
@@ -35,16 +35,19 @@ h1 {
     .table-responsive {
       margin-left: 0; 
       margin-right: 0;
-        margin-top: 250px;
         width: 100%;
         opacity:10;
-        position:absolute;
+        /* position:absolute; */
         font-weight: bold;
         font-size: 18px;
         font-family: sans-serif;
-        
-
-        
+    }
+    .details {
+        font-size: 15px;
+    }
+    .image {
+        width:100%;
+        height:auto;margin-left: 0;
     }
     
 }

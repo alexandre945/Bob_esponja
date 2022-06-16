@@ -27,7 +27,16 @@ h1 {
     color: red;
     font-size: 25px;
 }
-
+.drink {
+    text-decoration: none;
+    color: black;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding:15px
+}
 
 @media( max-width: 480px) 
 {
@@ -36,11 +45,12 @@ h1 {
       margin-left: 0; 
       margin-right: 0;
         width: 100%;
-        opacity:10;
+        opacity:0,3;
         /* position:absolute; */
         font-weight: bold;
         font-size: 18px;
         font-family: sans-serif;
+        padding: 5px;
     }
     .details {
         font-size: 15px;

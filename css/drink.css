@@ -1,0 +1,19 @@
+.drink {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: rgb(220, 20, 60);
+    padding: 3px;
+    border-radius:8px;
+    
+
+}
+.table-responsive {
+   background-image: url(../image/azuldomar.png);
+    border-radius: 10px;
+    padding: 5px;
+    height:100%;
+}
+h1 {
+    text-align: center;
+}

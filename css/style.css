@@ -30,13 +30,51 @@ h1 {
 .drink {
     text-decoration: none;
     color: black;
+
 }
 .links {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     padding:15px
+    
 }
+.center {
+    background-image: url(../image/azuldomar.png);
+    padding:5px;
+    border: solid 2px black;
+    border-radius: 8px;
+}
+.logo {
+    width:130px;
+    border-radius: 250px;
+    border: solid 2px blue;
+}
+.center-logo{
+    display: flex;
+}
+p {
+    padding: 5px;
+}
+i {
+    color: green;
+}
+
+/* .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius:50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+} */
+
 
 @media( max-width: 480px) 
 {
@@ -58,6 +96,10 @@ h1 {
     .image {
         width:100%;
         height:auto;margin-left: 0;
+    }
+    .center {
+        width:100%;
+        margin: 0;
     }
     
 }

@@ -46,9 +46,10 @@ h1 {
     border-radius: 8px;
 }
 .logo {
-    width:130px;
-    border-radius: 250px;
-    border: solid 2px rgb(46, 46, 56);
+    width:120px;
+   height: 130px;
+ cursor: pointer;
+ border-radius: 8px;
 }
 .center-logo{
     display: flex;

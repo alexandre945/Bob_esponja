@@ -63,10 +63,25 @@ i {
 .nav-link {
     font-weight: bold;
 }
+.whatsapp {
+    display: flex;
+   
+}
 
 .whats {
     height: 50px;
     border-radius: 50px;
+}
+.uai-rango {
+    width: 80px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.face-book {
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 8px;
 }
 
 

@@ -16,6 +16,7 @@
 border:solid 2px black;
 }
 
+
 h1 {
     text-align: center;
     padding-top: 10px;
@@ -40,22 +41,30 @@ h1 {
     
 }
 .center {
-   background-color: #00ffff;
+    background-image: url(../image/hamburgue-1.jpg);
+    background-size: 550px;
+    background-position: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
     padding:5px;
     border: solid 2px black;
     border-radius: 8px;
 }
+
 .logo {
     width:120px;
    height: 130px;
  cursor: pointer;
  border-radius: 8px;
+
 }
 .center-logo{
     display: flex;
+
 }
 p {
     padding: 5px;
+    color: #fff;
 }
 i {
     color: green;
@@ -65,24 +74,37 @@ i {
 }
 .whatsapp {
     display: flex;
+    margin-top: 300px;
    
+  
+}
+.whatsapp a {
+    display: inline-flex;
+    width:25px;
+    height:  50x;
+    background-color: #f14130;
+    margin: 0 1px;
+    border-radius: 50px;
+    justify-content:center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 18px;
+    text-decoration: none;
+}
+.whatsapp a:hover {
+    background: #2c3e50;
+}
+  
+
+.whatsapp i {
+    color: white;
 }
 
 .whats {
-    height: 50px;
+    height: 25px;
     border-radius: 50px;
 }
-.uai-rango {
-    width: 80px;
-    border-radius: 8px;
-    margin-left: 30px;
-}
-.face-book {
-    width: 60px;
-    border-radius: 10px;
-    margin-left: 30px;
-    margin-bottom: 8px;
-}
+
 
 
 @media( max-width: 480px) 

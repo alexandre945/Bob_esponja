@@ -35,7 +35,7 @@ h1 {
 }
 .drink {
     text-decoration: none;
-    color: black;
+    color: #fff;
 
 }
 .links {
@@ -70,6 +70,7 @@ h1 {
 p {
     padding: 5px;
     font-size: 16px;
+    color: #fff;
    
 }
 h5 {

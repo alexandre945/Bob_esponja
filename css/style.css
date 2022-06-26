@@ -6,6 +6,9 @@
     height: 500px;
   
 }
+.container {
+    height: 600px;
+}
 .table-responsive {
     /* margin-top: 300px; */
     background-color: #f35243;
@@ -52,8 +55,9 @@ h1 {
     background-position-x: center;
     background-repeat: no-repeat;
     padding:5px;
-    border: solid 2px black;
+    border: solid 2px #f14130;
     border-radius: 8px;
+    height:1000px;
 }
 
 .logo {
@@ -89,7 +93,8 @@ i {
 }
 .whatsapp {
     display: flex;
-    margin-top: 300px;
+ margin-top: 400px;
+
 }
 .whatsapp a {
     display: inline-flex;
@@ -103,6 +108,7 @@ i {
     transition: 0.4s;
     font-size: 18px;
     text-decoration: none;
+    
 }
 .whatsapp a:hover {
     background: #2c3e50;

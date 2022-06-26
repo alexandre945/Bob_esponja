@@ -7,7 +7,7 @@
   
 }
 .container {
-    height: 600px;
+    height: 800px;
 }
 .table-responsive {
     /* margin-top: 300px; */
@@ -57,7 +57,7 @@ h1 {
     padding:5px;
     border: solid 2px #f14130;
     border-radius: 8px;
-    height:1000px;
+    
 }
 
 .logo {
@@ -93,7 +93,7 @@ i {
 }
 .whatsapp {
     display: flex;
- margin-top: 400px;
+ margin-top: 580px;
 
 }
 .whatsapp a {

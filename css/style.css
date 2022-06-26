@@ -137,6 +137,9 @@ i {
         font-family: sans-serif;
         padding: 5px;
     }
+    .center {
+        height:100%;
+    }
     .details {
         font-size: 15px;
     }

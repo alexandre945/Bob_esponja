@@ -55,7 +55,7 @@ h1 {
     background-position-x: center;
     background-repeat: no-repeat;
     padding:5px;
-    border: solid 2px #f14130;
+    border: solid 3px #f14130;
     border-radius: 8px;
     
 }
@@ -95,6 +95,9 @@ i {
 .whatsapp {
     display: flex;
  margin-top: 580px;
+justify-content: space-between;
+margin-left: 10px;
+position:fixed;
 
 }
 .whatsapp a {
@@ -102,7 +105,7 @@ i {
     width:25px;
     height:  50x;
     background-color: #f14130;
-    margin: 1px 1px 2px ;
+    margin: 1px 8px 2px ;
     border-radius: 50px;
     justify-content:center;
     align-items: center;

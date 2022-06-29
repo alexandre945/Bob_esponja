@@ -6,9 +6,11 @@
     height: 500px;
   
 }
-.container {
-    height: 780px;
+.center {
+    height: 600px;
+    margin-top: 20px;
 }
+ 
 .table-responsive {
     /* margin-top: 300px; */
     background-color: #f35243;
@@ -58,19 +60,9 @@ h1 {
     border: solid 3px #f14130;
     border-radius: 8px;
     
+    
 }
 
-.logo {
-    width:120px;
-   height: 130px;
- cursor: pointer;
- border-radius: 8px;
-
-}
-.center-logo{
-    display: flex;
-
-}
 p {
     padding: 5px;
     font-size: 16px;
@@ -149,6 +141,9 @@ position:fixed;
     }
     .center {
         height:100%;
+    }
+    .container {
+        height: 780px;
     }
     .details {
         font-size: 15px;

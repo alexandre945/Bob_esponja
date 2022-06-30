@@ -6,6 +6,15 @@
     height: 500px;
   
 }
+.button {
+    border-radius: 10px;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #f35243;
+}
+.button:hover {
+    color:#2c3e50;
+}
 .center {
     height: 600px;
     margin-top: 20px;
@@ -86,7 +95,7 @@ i {
 }
 .whatsapp {
     display: flex;
- margin-top: 560px;
+ margin-top: 400px;
 justify-content: space-between;
 margin-left: 10px;
 position:fixed;
@@ -138,6 +147,14 @@ position:fixed;
         font-size: 18px;
         font-family: sans-serif;
         padding: 5px;
+    }
+    .whatsapp {
+        display: flex;
+     margin-top: 560px;
+    justify-content: space-between;
+    margin-left: 10px;
+    position:fixed;
+    
     }
     .center {
         height:100%;

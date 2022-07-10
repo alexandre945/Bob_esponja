@@ -10,6 +10,7 @@ class Produto {
       const produto = this.lerdados();
                     this.salvar(produto); 
                     this.listaTabela();
+                 
     }
     listaTabela(){
         const tbody = document.getElementById("tbody");
@@ -66,10 +67,12 @@ class Produto {
             tbody.deleteRow(i);
           
         }
+      
        }
-       console.log(this.arrayProdutos);
+     
     }
-  
+   
+
 }
 
 const produto = new Produto();

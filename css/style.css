@@ -15,15 +15,15 @@
 .button:hover {
     color:#2c3e50;
 }
+
 .center {
     height: 600px;
     margin-top: 20px;
 }
  
 .table-responsive {
-    /* margin-top: 300px; */
+    margin-top: 15px;
     background-color: #f35243;
-    /* opacity: 0.7; */
     border-radius: 10px;
     width: 95%;
     margin-left: 40px;
@@ -68,6 +68,7 @@ h1 {
     padding:5px;
     border: solid 3px #f14130;
     border-radius: 8px;
+    
     
     
 }
@@ -130,8 +131,43 @@ position:fixed;
     height: 25px;
     border-radius: 50px;
 }
+#nameuser {
+    height:100px;
+    width:100px;
+    background-color: #fff;
+}
+#bob {
+    width: 85px;
+}
+.none {
+    display:none;
+}
 
+/* tabela */
+.content {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 16%;
+ 
+ 
+}
+table{
+    padding: 30px;
+    width:90%;
 
+   
+}
+table th {
+    background-color: rgb(129, 110, 110);
+    border-radius:8px;
+    
+ }
+ table td img {
+    width: 23px;
+ }
+ table td {
+    padding: 5px;
+ }
 
 @media( max-width: 480px) 
 {
@@ -148,6 +184,36 @@ position:fixed;
         font-family: sans-serif;
         padding: 5px;
     }
+    .title {
+        margin-left: -80px;
+        color: #fff;
+     }
+     table th {
+        background-color: rgb(129, 110, 110);
+     }
+     table td img {
+        width: 23px;
+        
+     }
+
+    /* tabela */
+
+ .title {
+    margin-left: -80px;
+    color: #fff;
+ }
+ table th {
+    background-color: rgb(129, 110, 110);
+ }
+ table td img {
+    width: 23px;
+ }
+ table {
+    width: 100%;
+   
+    
+ }
+
     .whatsapp {
         display: flex;
      margin-top: 560px;

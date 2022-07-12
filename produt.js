@@ -10,6 +10,8 @@ class Produto {
       const produto = this.lerdados();
                     this.salvar(produto); 
                     this.listaTabela();
+                    this.totais();
+                    this.mudar();
                  
     }
     listaTabela(){
@@ -36,9 +38,6 @@ class Produto {
             img.src = 'image/lixeira-de-reciclagem.png';
             img.setAttribute("onclick", "produto.delete("+this.arrayProdutos[i].id+")");
             td_acoes.appendChild(img);
-          
-
-            
         }
     }
     salvar(produto) {
@@ -71,7 +70,21 @@ class Produto {
        }
      
     }
-   
+    totais() {
+
+ 
+        const total = this.arrayProdutos.reduce((soma, item ) => item.nomeValor + soma, 0);
+        console.log(total);
+
+    }
+    mudar() {
+        const button = document.getElementById("produto");
+        button.style.color = "blue";
+        button.style.border = "solid 2px green";
+        button.style.background = "white";
+        button.innerHTML = "Adicionado";
+    }
+  
 
 }
 

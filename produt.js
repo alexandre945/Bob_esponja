@@ -7,14 +7,22 @@ class Produto {
     }
 
     adicionar() {
+       
       const produto = this.lerdados();
                     this.salvar(produto); 
+
                     this.listaTabela();
+
                     this.totais();
+
                     this.mudar();
-                 
-    }
-    listaTabela(){
+
+                    // this.change();
+             
+                }
+    
+    listaTabela(id){
+       
         const tbody = document.getElementById("tbody");
               tbody.innerText = '';
 
@@ -26,12 +34,12 @@ class Produto {
             let td_valor = tr.insertCell();
             let td_total = tr.insertCell();
             let td_acoes = tr.insertCell();
-
          
 
             td_id.innerText = this.arrayProdutos[i].id;
             td_produto.innerText = this.arrayProdutos[i].nomeProduto;
             td_valor.innerText = this.arrayProdutos[i].nomeValor;
+        
        
 
             let img = document.createElement('img');
@@ -45,13 +53,12 @@ class Produto {
         this.id++;
 
     }
-    lerdados() {
+    lerdados(id) {
         const produto = {}
 
         produto.id = this.id;  
         produto.nomeProduto = document.getElementById("produto").value;
         produto.nomeValor = document.getElementById("valor").value;
-   
 
         return produto;
     }
@@ -74,15 +81,32 @@ class Produto {
 
  
         const total = this.arrayProdutos.reduce((soma, item ) => item.nomeValor + soma, 0);
-        console.log(total);
+        console.log(this.arrayProdutos);
 
     }
     mudar() {
         const button = document.getElementById("produto");
-        button.style.color = "blue";
-        button.style.border = "solid 2px green";
+        button.style.color = "green";
+        button.style.border = "solid 3px green";
         button.style.background = "white";
         button.innerHTML = "Adicionado";
+    }
+    // change() {
+    //     const button = document.getElementById("sereia");
+    //     button.style.color = "green";
+    //     button.style.border = "solid 3px green";
+    //     button.style.background = "white";
+    //     button.innerHTML = "Adicionado";
+    // }
+
+    inner(value) {
+        
+        // var btn = document.getElementById("produto");
+        let input = document.getElementById("produto")
+        input.value = value;
+        this.adicionar();
+     
+       
     }
   
 

@@ -27,7 +27,7 @@
         <tr>
           <th scope="row">1</th>
           <td>Bob esponja<br><button class="button" onclick="produto.inner('Bob Espoja')">Selecionar</button></td>
-          <input type = "text" class="button" id="produto" name="bob" onkeyup="produto.adicionar()">
+          <input type = "hidden" class="button" id="produto" name="bob" onkeyup="produto.adicionar()">
           <td><span class="price">R$23,00<input type="text" id="valor" value="23,00" class="none" /></span></td>
           <td>
             <details>
@@ -51,8 +51,8 @@
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Karen <br> <button class="button" onclick="produto.inner('Karen')">Selecionar</button></td>/
-          <td class="price">R$17,00 <td>
+          <td>Karen <br> <button class="button" onclick="produto.inner('Karen')">Selecionar</button></td>
+          <td><span class="price">R$17,00<input type="text" id="valor" value="17,00" class="none" /></span></td>
           <td>
             <details>
               <summary>ingredientes</summary>

@@ -14,10 +14,8 @@ class Produto {
                     this.listaTabela();
 
                     this.totais();
-
-                    this.mudar();
-
-                    // this.change();
+              
+                    this.change();
              
                 }
     
@@ -57,8 +55,10 @@ class Produto {
         const produto = {}
 
         produto.id = this.id;  
-        produto.nomeProduto = document.getElementById("produto").value;
-        produto.nomeValor = document.getElementById("valor").value;
+        produto.nomeProduto = document.getElementById("produto").name;
+        produto.nomeValor = document.getElementById("produto").value;
+
+       
 
         return produto;
     }
@@ -84,27 +84,26 @@ class Produto {
         console.log(this.arrayProdutos);
 
     }
-    mudar() {
-        const button = document.getElementById("produto");
+
+    change() {
+        const button = document.querySelector("button");
         button.style.color = "green";
         button.style.border = "solid 3px green";
         button.style.background = "white";
-        button.innerHTML = "Adicionado";
+        button.innerHTML = "selecionado";
     }
-    // change() {
-    //     const button = document.getElementById("sereia");
-    //     button.style.color = "green";
-    //     button.style.border = "solid 3px green";
-    //     button.style.background = "white";
-    //     button.innerHTML = "Adicionado";
-    // }
 
-    inner(value) {
+    inner(value,name) {
         
-        // var btn = document.getElementById("produto");
-        let input = document.getElementById("produto")
+      
+        let input = document.getElementById("produto");
+     
         input.value = value;
+        input.name = name;
+     
+       
         this.adicionar();
+        
      
        
     }

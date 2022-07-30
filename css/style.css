@@ -13,8 +13,11 @@
     background-color: #f35243;
 }
 .value{
+    text-align: center;
     margin-top: 30px;
     margin-right: 25px;
+    border-radius: 8px;
+    padding: 7px;
     text-align: center;
     border: solid 1px rgb(104, 238, 15);
 }
@@ -86,9 +89,15 @@ p {
     margin-left: -200px;
     text-indent: center;
 }
+#result{
+    margin-left: 5px;
+}
 
 h5 {
     display:none;
+}
+h3 {
+   margin-left: 50px;
 }
 .details {
     padding: 5px;

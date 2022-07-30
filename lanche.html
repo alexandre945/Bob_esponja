@@ -26,7 +26,7 @@
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>Bob esponja<br><button class="button"  onclick="produto.inner('23,00','Bob-Esponja')">Selecionar</button></td>
+          <td>Bob esponja<br><button class="button"  onclick="produto.inner('23.00','Bob-Esponja')">Selecionar</button></td>
           <input type = "hidden"  id="produto"  onkeyup="produto.adicionar()">
           <td><span class="price">R$23,00</span></td>
           <td>
@@ -39,7 +39,7 @@
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Homen sereia<br><button class="button" onclick="produto.inner('17,00','Homen Sereia')">Selecionar</button></td>
+          <td>Homen sereia<br><button class="button" onclick="produto.inner('17.00','Homen Sereia')">Selecionar</button></td>
             <td><span class="price">R$17,00</span></td>
           <td>
           <details>
@@ -51,7 +51,7 @@
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Karen <br> <button class="button" onclick="produto.inner('17,00','Karen')">Selecionar</button></td>
+          <td>Karen <br> <button class="button" onclick="produto.inner('17.00','Karen')">Selecionar</button></td>
           <td><span class="price">R$17,00</span></td>
           <td>
             <details>
@@ -63,7 +63,7 @@
         </tr>
         <tr>
           <th scope="row">4</th>
-          <td>Larry a Lagosta <br> <button class="button" onclick="produto.inner('16,00','Larry a Lagosta')">Selecionar</button></td>
+          <td>Larry a Lagosta <br> <button class="button" onclick="produto.inner('16.00','Larry a Lagosta')">Selecionar</button></td>
           <td ><span class="price">R$16,00</span></td>
           <td>
             <details>
@@ -74,7 +74,7 @@
         </tr>
         <tr>
           <th scope="row">5</th>
-          <td>Patrick Estrela <br> <button class="button" onclick="produto.inner('16,00','Patrick Estrela')">Selecionar</button></td>
+          <td>Patrick Estrela <br> <button class="button" onclick="produto.inner('16.00','Patrick Estrela')">Selecionar</button></td>
           <td ><span class="price">R$16,00</span></td>
           <td>
             <details>
@@ -154,7 +154,6 @@
     </table>
     <a class="drink" href="index.html">VOLTAR</a><br>
     <!-- <a id="show" href="api.html">ver pedido</a> -->
-
     <div class="content">
       <h4 class="title">Seus pedidos</h4>
       <table>
@@ -168,12 +167,11 @@
         <tbody id="tbody">
         </tbody>
       </table>
-
+      <div class="value">
+        <h3>total de seus Pedidos</h3>
+        <p id="result"></p>
+      </div>
     </div>
-
-
-
-
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

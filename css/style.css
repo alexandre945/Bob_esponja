@@ -12,6 +12,12 @@
     color: #fff;
     background-color: #f35243;
 }
+.value{
+    margin-top: 30px;
+    margin-right: 25px;
+    text-align: center;
+    border: solid 1px rgb(104, 238, 15);
+}
 .button:hover {
     color:#2c3e50;
 }

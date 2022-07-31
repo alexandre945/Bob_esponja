@@ -95,7 +95,7 @@ class Produto {
             for (let i = 0; i < this.arrayProdutos.length; i++) {
             total = parseFloat(total) + parseInt(this.arrayProdutos[i]['nomeValor']);
 
-      document.getElementById("result").innerHTML = "total:" +total;
+      document.getElementById("result").innerHTML = "total:" +total ;
 
        
           

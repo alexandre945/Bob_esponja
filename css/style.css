@@ -204,13 +204,13 @@ table th {
         padding: 5px;
     }
     .content {
-        margin-right: 55px;
+        margin-right: 50px;
      }
      .value {
-      margin-right: 30px;
+      margin-right: 20px;
      }
     .title {
-        margin-left: -80px;
+     margin-right: -60px;
         color: #fff;
      }
      table th {
@@ -238,6 +238,7 @@ table th {
    
     
  }
+
 
     .whatsapp {
         display: flex;

@@ -14,12 +14,16 @@
 }
 .value{
     text-align: center;
-    margin-top: 30px;
-    margin-right: 25px;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 20px;
     border-radius: 8px;
     padding: 7px;
     text-align: center;
     border: solid 1px rgb(104, 238, 15);
+}
+.content {
+   margin-left: 80px;
 }
 .button:hover {
     color:#2c3e50;
@@ -199,6 +203,12 @@ table th {
         font-family: sans-serif;
         padding: 5px;
     }
+    .content {
+        margin-right: 55px;
+     }
+     .value {
+      margin-right: 30px;
+     }
     .title {
         margin-left: -80px;
         color: #fff;
